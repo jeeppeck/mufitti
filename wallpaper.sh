@@ -24,8 +24,11 @@ do
 
 done <values.txt
 
+#set initial index value to 0
 echo 0 > index.txt
 
+#delete the values.txt file 
 rm values.txt
 
+#run the set_wallpaper script to set the first wallpaper
 ./set_wallpaper.sh
